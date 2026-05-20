@@ -1,0 +1,71 @@
+TECH STACK - Raspberry Pi WiFi Monitor
+=====================================
+
+PROJECT: Raspberry Pi WiFi Monitor
+A monorepo application with frontend and backend components
+
+=====================================
+FRONTEND TECHNOLOGIES
+=====================================
+
+Core Framework:
+- React: ^19.1.0 (UI library)
+- React DOM: ^19.1.0 (React rendering for DOM)
+
+Build Tools:
+- Vite: ^7.0.0 (Fast build tool and dev server)
+- @vitejs/plugin-react: ^4.4.1 (React plugin for Vite)
+
+Styling:
+- Tailwind CSS: ^4.1.11 (Utility-first CSS framework)
+- @tailwindcss/vite: ^4.1.11 (Vite integration for Tailwind CSS)
+
+UI/Animation Libraries:
+- Motion: ^12.23.24 (Animation library)
+- Recharts: ^3.8.1 (React charting library)
+
+Development:
+- Node.js (JavaScript runtime)
+- ES Modules (type: "module" configuration)
+
+=====================================
+BACKEND TECHNOLOGIES
+=====================================
+
+Runtime:
+- Node.js (JavaScript runtime)
+
+Libraries:
+- ws: ^8.18.0 (WebSocket server/client library)
+
+Development:
+- node --watch (Built-in Node.js file watching for development)
+
+Scripts:
+- start: node server.js (Production start)
+- dev: node --watch server.js (Development with auto-reload)
+
+=====================================
+PROJECT STRUCTURE
+=====================================
+
+Monorepo Layout:
+- Root: Workspace configuration and npm scripts
+- /backend: Node.js + WebSocket server
+- /frontend: React + Vite SPA application
+- /public: Static assets
+
+=====================================
+BUILD & DEPLOYMENT
+=====================================
+
+Development:
+- Frontend Dev Server: npm run frontend (Vite dev server on 0.0.0.0)
+- Backend Dev Server: npm run backend (Node.js with watch mode)
+
+Production:
+- Build Frontend: npm run build (Vite build to dist/)
+- Run Backend: npm start (Production Node.js server)
+- Preview Frontend: vite preview --host 0.0.0.0
+
+=====================================
