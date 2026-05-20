@@ -1,4 +1,4 @@
-# Raspberry Pi Wi-Fi Admin Panel
+# Chakravyuh - Raspberry Pi firewall system
 
 This project is split into:
 
